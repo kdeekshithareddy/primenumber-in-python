@@ -6,4 +6,5 @@ def is_prime(n):
        if n % i == 0:
            return False
           return True
-        
+        print(is_prime(7))  # True
+print(is_prime(8))  # False
